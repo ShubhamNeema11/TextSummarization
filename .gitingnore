@@ -1,0 +1,10 @@
+# Python virtual environment
+venv/
+
+# Byte-compiled / cache files
+__pycache__/
+*.pyc
+
+# Editor backups or OS files
+.DS_Store
+*.swp

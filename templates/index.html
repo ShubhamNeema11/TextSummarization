@@ -1,0 +1,19 @@
+<html>
+<head>
+<link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/styling.css') }}">
+</head>
+<body>
+<div class="content">
+  <h1 ><b>Text Summarizer</h1></b>
+  <p class="desc" style="padding:0;">Easily summarize a long piece of text in such a few lines. Implemented extractive summarization using TextRank ranking algorithm.</p><br><br>
+  <center>
+  <div class="form1">
+    <form method="POST" action="/submit">
+   
+      <textarea type="text" style="resize:none;" rows=4 placeholder="Your text here :)" id="input" name="input" required="required" /></textarea><br>
+        <button type="submit" class="btn btn-primary btn-block btn-large">Summarize!</button>
+    </form>
+</div>
+</div>
+<div id="footer">Built with ❤️ by Shubham</div></body>
+</html>

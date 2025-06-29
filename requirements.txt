@@ -1,0 +1,7 @@
+nltk>=3.9.1
+numpy>=1.26.0
+networkx>=3.5
+Flask>=3.0.0
+gunicorn>=21.0.0
+python-dotenv>=1.0.0
+scipy
